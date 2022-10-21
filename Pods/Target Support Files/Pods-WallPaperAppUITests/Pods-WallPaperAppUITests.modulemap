@@ -1,0 +1,6 @@
+framework module Pods_WallPaperAppUITests {
+  umbrella header "Pods-WallPaperAppUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
