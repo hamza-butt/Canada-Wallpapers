@@ -153,9 +153,8 @@ extension WallpaperPreviewVC: UICollectionViewDelegate,UICollectionViewDataSourc
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = self.collection_wallpapers.dequeueReusableCell(withReuseIdentifier: "PreviewCollectionCell", for: indexPath) as! PreviewCollectionCell
-        cell.btnDownload.layer.cornerRadius = 25.0
-        cell.btnShare.layer.cornerRadius = 25.0
-        //  cell.btnEdit.layer.cornerRadius = 25.0
+        cell.btnDownload.layer.cornerRadius = 35.0
+        cell.btnShare.layer.cornerRadius = 35.0
         cell.contentView.backgroundColor = UIColor(hex: self.wallpaperArr[indexPath.item]["wallpaper_color"]!)
         cell.imgWallpaper.isHidden = true
         cell.imgWallpaper.sd_setImage(with: URL(string: self.wallpaperArr[indexPath.item]["wallpaper_image"]!)) { (image, error, cache, url) in
