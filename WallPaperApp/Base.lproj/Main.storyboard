@@ -566,7 +566,7 @@
                                                                     </constraints>
                                                                 </imageView>
                                                             </subviews>
-                                                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             <constraints>
                                                                 <constraint firstItem="Fk6-Dy-a7C" firstAttribute="top" secondItem="bOE-YS-BoY" secondAttribute="top" id="1vA-MF-TIe"/>
                                                                 <constraint firstAttribute="bottom" secondItem="Fk6-Dy-a7C" secondAttribute="bottom" id="6Yb-EX-Aw0"/>
@@ -603,7 +603,7 @@
                                                                     </constraints>
                                                                 </imageView>
                                                             </subviews>
-                                                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="trailing" secondItem="9st-jJ-1lh" secondAttribute="trailing" id="0Pm-a1-c8f"/>
                                                                 <constraint firstItem="jwz-tq-syQ" firstAttribute="centerY" secondItem="Ihd-AZ-6B5" secondAttribute="centerY" id="DBy-cb-ohU"/>
